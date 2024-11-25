@@ -17,7 +17,7 @@ namespace MauiTempo.Models
         public string? Sunset { get; set; }
         public string? Weather { get; set; }
         public string? WeatherDescription { get; set; }
-
+        public DateTime? HistoryDate { get; set; }
         public string? Latitude { get; set; }
         public string? Longitude { get; set; }
         public string Detalhes
